@@ -1,1 +1,40 @@
 @charset "utf-8";
+.header-inner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  height: 89px;
+}
+.gnb {
+  display: flex;
+  width: 960px;
+}
+.gnb > li {
+  width: calc(100% / 5);
+  text-align: center;
+}
+.gnb > li > a {
+  display: block;
+  width: 100%;
+  line-height: 80px;
+  color: #303030;
+}
+.icon {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+/* 서브메뉴 */
+.depth2 li {
+  width: 95%;
+  border-bottom: 1px solid #e1e1e1;
+}
+.depth2 li a {
+  width: 100%;
+  line-height: 49px;
+  color: #676767;
+}
+.depth2 li:last-child {
+  border: none;
+}
