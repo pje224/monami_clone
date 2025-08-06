@@ -54,3 +54,80 @@
 .img3 img:first-child {
   margin-bottom: 24px;
 }
+/* 이미지 설명 */
+.img-desc {
+  text-align: center;
+  background-color: #c40f39;
+  /* width: 92%; */
+  /* height:calc(100% - 25px) ; */
+  /* height: 73%; */
+  padding: 10% 0;
+  border-radius: 24px;
+  opacity: 0;
+  transition: all 0.3s;
+}
+/* 이미지 설명 배경 */
+.img1 .img-desc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  width: 362px;
+  height: 175px;
+}
+.img2 .img-desc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 362px;
+  height: 262px;
+}
+.img3 .img-desc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+  width: 756px;
+  height: 330px;
+}
+.img4 .img-desc {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 420px;
+  height: 409px;
+}
+.img5 .img-desc {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 284px;
+  height: 262px;
+}
+/* 이미지 설명 텍스트 */
+.img-desc p {
+  color: #fff;
+}
+.img-desc p:first-child {
+  color: #eec7d0;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+.img-desc p:nth-child(2) {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 21px;
+}
+.look {
+  margin-top: 30px;
+  color: #eec7d0;
+  font-size: 30px;
+  font-weight: 100;
+}
+/* 이미지 설명 호버 */
+.img:hover .img-desc {
+  opacity: 1;
+}
