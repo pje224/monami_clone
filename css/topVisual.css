@@ -1,1 +1,16 @@
 @charset "utf-8";
+.topVisual-inner {
+  position: relative;
+  width: 100%;
+  color: #fff;
+}
+.topVisual-txt {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.topVisual-txt h1 {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 200;
+}

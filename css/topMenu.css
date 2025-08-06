@@ -1,7 +1,9 @@
 @charset "utf-8";
 .topMenu {
+  position: fixed;
   width: 100%;
   border-bottom: 1px solid #eaeaea;
+  z-index: 999;
 }
 .topMenu-inner {
   display: flex;

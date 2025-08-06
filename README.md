@@ -15,3 +15,6 @@ font-optical-sizing: auto;
 font-weight: <weight>;
 font-style: normal;
 }
+
+서브메뉴색상
+rgba(255, 255, 255, 0.95);
