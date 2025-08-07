@@ -41,7 +41,7 @@
 .menu a::after {
   content: "";
   position: absolute;
-  top: 0;
+  top: 2px;
   right: 0;
   display: block;
   width: 1px;
