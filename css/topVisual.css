@@ -1,9 +1,20 @@
 @charset "utf-8";
+/* 이미지는 높이값 주지말자!!!!!! */
+.topVisual {
+  /* width: 1250px; */
+  margin: auto;
+  padding-top: 165px;
+  /* height: 652px; */
+}
 .visualImg {
   width: 100%;
-  height: 652px;
+  /* height: 100%; */
   margin: auto;
-  background: url(../images/visual1.jpg) no-repeat center;
+}
+.visualImg img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 .img01 img {
   display: block;
@@ -15,7 +26,7 @@
 }
 .topVisual_txt {
   position: absolute;
-  top: -390px;
+  top: -500px;
   left: 120px;
   width: 100%;
 }
