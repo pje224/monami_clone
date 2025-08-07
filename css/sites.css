@@ -1,0 +1,23 @@
+@charset "utf-8";
+.sites-inner {
+  display: flex;
+  width: 100%;
+  /* background-color: aquamarine; */
+}
+.sites_desc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: calc(100% / 2);
+  margin-top: 70px;
+  padding: 30px;
+}
+.desc1 {
+  background: url(../images/inquiry_bg.jpg) no-repeat;
+  background-size: cover;
+}
+.desc2 {
+  background: url(../images/shop_bg.png) no-repeat;
+  background-size: cover;
+}

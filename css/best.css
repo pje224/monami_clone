@@ -8,9 +8,9 @@
   width: 100%;
 }
 /* 텍스트 */
-.best_txt {
+/* .best_txt {
   margin-bottom: 30px;
-}
+} */
 .best_txt h3 {
   position: relative;
   font-family: "Montserrat", sans-serif;
@@ -36,6 +36,7 @@
 }
 /* 카테고리 */
 .category {
+  margin: 20px 0;
   display: flex;
   justify-content: center;
   gap: 10px;
