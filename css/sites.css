@@ -1,4 +1,10 @@
 @charset "utf-8";
+.sites {
+  padding: 70px;
+}
+.sites-title {
+  text-align: center;
+}
 .sites-inner {
   display: flex;
   width: 100%;
@@ -10,8 +16,9 @@
   justify-content: center;
   gap: 40px;
   width: calc(100% / 2);
-  margin-top: 70px;
   padding: 30px;
+  margin-top: 50px;
+  text-align: left;
 }
 .desc1 {
   background: url(../images/inquiry_bg.jpg) no-repeat;
