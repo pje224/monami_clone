@@ -4,6 +4,7 @@ window.addEventListener("load", function () {
   //   nav에 마우스 엔터(호버) 했을때
   const nav = document.querySelector(".header");
   const headerBg = document.querySelector(".header-bg");
+
   nav.addEventListener("mouseenter", function () {
     headerBg.style.height = "425px";
   });
