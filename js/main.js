@@ -11,4 +11,27 @@ window.addEventListener("load", function () {
   nav.addEventListener("mouseleave", function () {
     headerBg.style.height = "0px";
   });
+  // 상품 스와이퍼
+  const swiper = new Swiper(".pdSwiper", {
+    slidesPerView: 10,
+    // spaceBetween: 10,
+    breakpoints: {
+      "@0.00": {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      "@0.75": {
+        slidesPerView: 5,
+        spaceBetween: 20,
+      },
+      "@1.00": {
+        slidesPerView: 5,
+        spaceBetween: 40,
+      },
+      "@1.50": {
+        slidesPerView: 5,
+        spaceBetween: 50,
+      },
+    },
+  });
 });

@@ -1,16 +1,19 @@
 @charset "utf-8";
 footer {
-  width: 100%;
+  width: 100vw;
   background-color: #111;
-  color: #fff;
+  color: #ffffff4d;
 }
-.footer-inner {
+/* .footer-inner {
   padding: 30px 0;
-}
+} */
 .footer-top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
+  padding: 25px 0;
+  border-bottom: 1px solid #ffffff4d;
 }
 .footer-links {
   display: flex;
@@ -27,8 +30,85 @@ footer {
   right: -16px;
   width: 1px;
   height: 13px;
-  background-color: #fff;
+  background-color: #ffffff4d;
 }
 .footer-links span:last-child::after {
   display: none;
+}
+/* 아래 */
+.footer-btm {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+}
+.info > p:first-child {
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: #fff;
+}
+.info-desc {
+  display: flex;
+  gap: 20px;
+}
+.info-desc p {
+  position: relative;
+  font-size: 14px;
+  font-family: "Noto Sans";
+}
+.info-desc p::after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  right: -10px;
+  width: 1px;
+  height: 12px;
+  background-color: #ffffff4d;
+}
+.info-desc p:last-child::after {
+  display: none;
+}
+.info > p:last-child {
+  margin-top: 3px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+  font-weight: 300;
+}
+.csCenter {
+  font-family: "Montserrat", sans-serif;
+}
+.csCenter p {
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 15px;
+}
+.csCenter h2 {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 24px;
+}
+.csCenter button {
+  display: inline-block;
+  width: 155px;
+  height: 32px;
+  line-height: 31px;
+  margin-top: 15px;
+  color: #dfdfdf;
+  text-align: center;
+  border: 1px solid #878787;
+  background: #4a4a4a;
+  border-radius: 6px;
+}
+#fsite {
+  width: 240px;
+  display: block;
+  padding: 0 10px;
+  height: 34px;
+  line-height: 34px;
+  border-radius: 5px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4);
+  /* background: url(/images/common/family_arr.png) no-repeat 95% center; */
+  position: relative;
+  background-color: #111;
 }
